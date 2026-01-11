@@ -109,5 +109,5 @@ typedef struct {                                                               \
       free(v->data[i]);                                                        \
     }                                                                          \
   }                                                                            
-#define INDEX_NOT_FOUND -1
+#define INDEX_NOT_FOUND ((size_t)-1)
 typedef char* string;

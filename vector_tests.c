@@ -27,8 +27,7 @@ int main() {
   }
 
   printf("=======================\n");
-  free(v->data);
-  free(v);
+  destroy_vector_float(v);
 
   return 0;
 }
