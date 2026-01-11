@@ -90,7 +90,7 @@ typedef struct {                                                               \
   }                                                                            \
                                                                                \
   vector_##type *remove_item_##type(vector_##type *v, type i) {                \
-    size_t index = indexof_##type(v, i);S                                      \
+    size_t index = indexof_##type(v, i);                                       \
     if (index == INDEX_NOT_FOUND)                                              \
       return v;                                                                \
     return remove_index_##type(v, index);                                      \
